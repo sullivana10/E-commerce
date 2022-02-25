@@ -8,6 +8,7 @@ import {
   CircularProgress,
   Divider,
   Button,
+  CssBaseline,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { commerce } from "../../../lib/commerce";
@@ -98,6 +99,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
     );
   return (
     <>
+      <CssBaseline />
       <div className={classes.toolbar} />
       <main className={classes.layout}>
         <Paper className={classes.paper}>
