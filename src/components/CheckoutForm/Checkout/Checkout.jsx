@@ -63,7 +63,13 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
           </Typography>
         </div>
         <br />
-        <Button component={Link} to="/" variant="outlined" type="button">
+        <Button
+          name="home"
+          component={Link}
+          to="/"
+          variant="outlined"
+          type="button"
+        >
           Back to Home
         </Button>
       </>

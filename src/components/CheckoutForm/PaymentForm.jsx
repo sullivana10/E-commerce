@@ -80,6 +80,7 @@ const PaymentForm = ({
                   Back
                 </Button>
                 <Button
+                  name="pay"
                   type="submit"
                   variant="contained"
                   disabled={!stripe}
